@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*width: 100%;*/
+    height: 980px;
+}
+
+li {
+    list-style: none;
+}
+
+.side_bar {
+    width: 200px;
+    height: 100%;
+    background-color: #304156;
+    float: left;
+}
+
+.my_logo {
+    float: top;
+    height: 60px;
+}
+
+.log-svg {
+    float: left;
+    width: 48px;
+    margin: 10px 10px 5px;
+}
+
+.log-text {
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    left: 10px;
+    font: bold 20px "Microsoft YaHei UI";
+    color: #ffffff;
+}
+
+/*一级菜单高度*/
+.menu-list button {
+    height: 50px;
+}
+
+.menu-list .menu-body .second-menu {
+    display: none;
+}
+
+.menu-list .menu-body ul li {
+    margin-top: 0 !important;
+    background-color: lightcyan;
+}
+
+.menu-list .menu-body ul li a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: #0099ff;
+    font: normal 14px "微软雅黑 Light" !important;
+}
+
+.menu-body > button {
+    text-align: left;
+    padding-left: 60px;
+}
+
+/*右侧主体*/
+.right_content {
+    float: left;
+    width: calc(100% - 200px);
+    height: 1080px;
+    /*background-color: pink;*/
+}
+
+.active_color {
+    color: #ef7841 !important;
+}
+
+.navbar-dark {
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+}
+
+#navbarSupportedContent > a {
+    margin: auto 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: url("../img/head.png") no-repeat;
+    background-size: 100% 100%;
+    /*border: rgba(41, 121, 255, 0.5) 2px solid;*/
+}
+
+.right_content .icons li {
+    display: inline-block;
+    float: left;
+    margin: 10px 5px 0;
+}
+
+.right_content .icons li svg {
+    width: 20px;
+    height: 20px;
+}
+/*主体部分*/
+.right_content .main {
+    width: 100%;
+    height: 930px;
+    background: url("../img/home2.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.right_content .main .string {
+    display: inline-block;
+    position: absolute;
+    bottom: 180px;
+    left: 50%;
+    font-size: 30px;
+}
+/*CRUD主体部分*/
+.right_content .main_content {
+    /*background-color: red;*/
+    width: 100%;
+    height: 930px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main_table {
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+}
+
+.main_table {
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+}
+
+tr {
+    line-height: 45px;
+    text-align: center;
+}
+
+.text_highlight {
+    color: #ff4200!important;
+}
